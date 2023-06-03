@@ -122,7 +122,7 @@ for (let i = 0; i < contactNumbers.length; i++) {
 
 let products = ["shoes", "hats", "belts", "watches", "sunglasses"];
 
-emove (1-" + products.length + "):");
+emove (1-" + products.length + ");
 position = parseInt(position);
 
 let removedItem = products.splice(position - 1, 1)[0]; 
